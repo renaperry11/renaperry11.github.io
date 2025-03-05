@@ -1,74 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>About Rena!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/main.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>HTML Assignment</title>
+    <style>
+      body {
+        margin: 10px;
+      }
+    </style>
   </head>
   <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">About Rena!</h1>
-        
-        <img
-          src="https://www.hachettebookgroup.com/wp-content/uploads/2019/01/Yellowstone_CastleGeyser_PengZhuang-Dreamstime-e1618497899718.jpg?w=1024"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-      
-        <div class="instructions">
-          <h2>About me</h2>
+    <!-- Header -->
+    <nav class="navbar navbar-dark bg-dark" aria-label="First navbar example">
+      <div class="container-fluid">
+        <!-- Placeholder for logo -->
+        <a class="navbar-brand" href="#">Assignment 6</a>
+      </div>
+    </nav>
+    <!-- End Header -->
+    
+    <br />
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <!-- Replace the headline and paragraph text below with your own. Be sure to keep the h1 and p opening and closing tags in place. -->
+          <h1>Crime Data in Philadelphia </h1>
           <p>
-            Hello, my name is Rena Perry and I'm a sophomore at 
-            Syracuse University studying Broadcast and Digital Journalism. 
-            My favorite things to do outside of school are cooking/baking, reading, 
-            and visiting National Parks with my family!
+            This map details the number of crime incidents reported in each city council district in Philadelphia County. The lighter the color, the less number of crimes reported in that district. The darker the color, the number of crimes reported in those districts are higher.
           </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
-
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+          
+          <iframe title="Number of Crimes in Philadelphia Districts so far in 2025" aria-label="Map" id="datawrapper-chart-umizP" src="https://datawrapper.dwcdn.net/umizP/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="832" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+</script>
+          <!-- Paste your datawrapper embed code here and remove this comment. -->
         </div>
       </div>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
-    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>
+
