@@ -1,12 +1,12 @@
 body {
-  font-family: font-family: 'Serif', monospace;
+  font-family: font-family: 'Serif', Times New Roman;
   max-width: 70rem;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 header {
-  background-color: purple;
+  background-color: darkblue;
   font-size: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -27,7 +27,7 @@ img {
 }
 
 h1 {
-  font-style: bold;
+  font-style: italic;
   font-size: 50px;
 }
 
