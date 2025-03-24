@@ -1,12 +1,12 @@
 body {
-  font-family: font-family: 'Roboto Mono', monospace;
+  font-family: font-family: 'Serif', monospace;
   max-width: 70rem;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 header {
-  background-color: darkgray;
+  background-color: purple;
   font-size: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
