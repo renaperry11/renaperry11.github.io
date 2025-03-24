@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: darkblue;
+  background-color: lightblue;
   font-size: 18px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -37,7 +37,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .otherimg {
