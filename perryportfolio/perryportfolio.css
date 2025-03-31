@@ -58,7 +58,7 @@ to this section's matching END comment to see page-specific styles.
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: #f17fb1;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -118,7 +118,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--color-bg);
+  background-color: green;
 }
 
 /* Page structure */
