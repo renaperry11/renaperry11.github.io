@@ -18,11 +18,11 @@ to this section's matching END comment to see page-specific styles.
 :root {
   --color-bg: #69F7BE;
   --color-text-main: #000000;
-  --color-text-header: #2800FF;
+  --color-text-header: #00fffb;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
-  --image-max-width: 100px;
-  --image-margin: 1rem;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
 }
@@ -68,7 +68,10 @@ to this section's matching END comment to see page-specific styles.
   margin-left: auto;
 }
 .btn--remix img {
+  width: 50%;
   margin-right: 0.5rem;
+  float: left;
+padding: 10px;
 }
 .btn--remix:hover {
   background-color: #D0FFF1;
@@ -112,6 +115,8 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
+  margin-left: 10px;
+  margin-right: 10px;
   font-family: HK Grotesk;
   background-color: var(--color-bg);
 }
@@ -168,7 +173,7 @@ input {
 
 /* Subheading */
 h2 {
-  color: green;
+  color: rgb(0, 17, 128);
 }
 
 /* Interactive image */
