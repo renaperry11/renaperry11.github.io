@@ -121,6 +121,10 @@ body {
   background-color: green;
 }
 
+img{
+  width: 30%;
+}
+
 /* Page structure */
 .wrapper {
   min-height: var(--wrapper-height);
