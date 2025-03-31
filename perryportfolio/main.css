@@ -68,7 +68,7 @@ to this section's matching END comment to see page-specific styles.
   margin-left: auto;
 }
 .btn--remix img {
-  width: 50%;
+  width: 30%;
   margin-right: 0.5rem;
   float: left;
 padding: 10px;
@@ -117,7 +117,7 @@ END Glitch hello-app default styles
 body {
   margin-left: 10px;
   margin-right: 10px;
-  font-family: HK Grotesk;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-bg);
 }
 
