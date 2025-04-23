@@ -6,51 +6,101 @@
     <link rel="stylesheet" href="../main.css">
     <title>Final Data Set | JNL 221 Final Project</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
   </head>
   <body>
 
-    <div class="container">
-      <div class="row">
-        <header class="newheader">
-          <a href="../index.html">Home</a> | <a href="../about/index.html">About</a> | <a href="../sources/index.html">Sources</a> | <a href="../background/index.html">Background</a> | <a href="../final/index.html">Final Data Set</a>
-        </header>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <h1>Final Project Deliverable</h1>
-          <p>Below you'll find the final product of my reporting — an interactive map and analysis of crime locations in Philadelphia. This visualization helps highlight trends in relation to neighborhoods, infrastructure, and socio-economic factors.</p>
-          
-          <!-- First Datawrapper Embed -->
-          <p>
-            <iframe title="Number of Crimes in Philadelphia Districts so far in 2025" aria-label="Map" id="datawrapper-chart-umizP" src="https://datawrapper.dwcdn.net/umizP/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="832" data-external="1"></iframe>
-            <script type="text/javascript">
-              !function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
-            </script>
-          </p>
+<!-- Wrap the content below this point inside the .container -->
+<div class="container">
+  <div class="row">
+    <header class="newheader">
+      <a href="../index.html">Home</a> | <a href="../about/index.html">About</a> | <a href="../sources/index.html">Sources</a> | <a href="../background/index.html">Background</a> | <a href="../final/index.html">Final Data Set</a>
+    </header>
+  </div>
 
-          <!-- Second Datawrapper Embed -->
-          <p>
-            <iframe title="Crime Incidents in Philadelphia on Super Bowl Sunday 2025" aria-label="Map" id="datawrapper-chart-uoDTz" src="https://datawrapper.dwcdn.net/uoDTz/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="764" data-external="1"></iframe>
-            <script type="text/javascript">
-              !function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}}))}();
-            </script>
-          </p>
+  <div class="row">
+    <div class="col">
+      <h1>Final Project Deliverable</h1>
+      <p>Below you'll find the final product of my reporting — an interactive map and analysis of crime locations in Philadelphia. This visualization helps highlight trends in relation to neighborhoods, infrastructure, and socio-economic factors.</p>
+    </div>
+  </div>
 
-          <!-- Knight Lab Storyline Embed -->
-          <h2>Timeline of Key Crime Events (Jan–Apr 2025)</h2>
-          <iframe src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vSxnIuz9c9d9RS1_vJTxtCNDDjNANIonFmFbYiQpzk4I-bwWdPbf56FKR1_egxwC1_NrvDLptAXE8AM%2Fpubhtml%3Fgid%3D1328366617%26single%3Dtrue&amp;dataYCol=%23crimes&amp;dataXCol=date&amp;dataDateFormat=%25Y-%25m-%25d&amp;chartDateFormat=%25Y-%25m-%25d&amp;chartYLabel=%23%20of%20Crimes%20Reported&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" 
-            style="width:100%;height:650px;" 
-            frameborder="0" 
-            marginwidth="0" 
-            marginheight="0" 
-            vspace="0" 
-            hspace="0">
-          </iframe>
-        </div>
+  <!-- First Visualization + Text Box on the Right -->
+  <div class="row">
+    <div class="col-md-8">
+      <iframe title="Number of Crimes in Philadelphia Districts so far in 2025" aria-label="Map" id="datawrapper-chart-umizP" src="https://datawrapper.dwcdn.net/umizP/4/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="832" data-external="1"></iframe>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 border rounded bg-light">
+        <h5>Context or Analysis</h5>
+        <p>Write your article or notes about this first visualization here. You can explain what stands out about crime by district.</p>
       </div>
     </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
-  </body>
-</html>
+  <!-- Third Visualization + Text Box on the Right -->
+<div class="row mt-5">
+  <div class="col-md-8">
+    <iframe title="Total Crime Incidents Reported" aria-label="Bar Chart" id="datawrapper-chart-pKipD" src="https://datawrapper.dwcdn.net/pKipD/1/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="236" data-external="1"></iframe>
+  </div>
+  <div class="col-md-4">
+    <div class="p-3 border rounded bg-light">
+      <h5>Total Crime Trends</h5>
+      <p>This bar chart offers a clear comparison of total crime incidents over a defined period. Use this section to explain what the spikes or drops in data may suggest about overall trends in Philadelphia's crime reporting.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Fourth Visualization + Text Box on the Left -->
+<div class="row mt-5">
+  <div class="col-md-4">
+    <div class="p-3 border rounded bg-light">
+      <h5>Breakdown by Crime Type</h5>
+      <p>This chart displays the total number of incidents by type. Use this space to explore which crimes are most common and why certain categories may be more prevalent than others in Philadelphia.</p>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <iframe title="Total of Each Crime Incident Reported" aria-label="Bar Chart" id="datawrapper-chart-5dqS8" src="https://datawrapper.dwcdn.net/5dqS8/1/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="984" data-external="1"></iframe>
+  </div>
+</div>
+
+
+  <!-- Second Visualization + Text Box on the Left -->
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <div class="p-3 border rounded bg-light">
+        <h5>Super Bowl Sunday Breakdown</h5>
+        <p>Add your insights here about what happened during the Super Bowl, or any interesting crime patterns.</p>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <iframe title="Crime Incidents in Philadelphia on Super Bowl Sunday 2025" aria-label="Map" id="datawrapper-chart-uoDTz" src="https://datawrapper.dwcdn.net/uoDTz/2/" scrolling="no" frameborder="0" style="width: 100%; border: none;" height="764" data-external="1"></iframe>
+    </div>
+  </div>
+
+  <!-- Timeline Embed -->
+  <div class="row mt-5">
+    <div class="col">
+      <h2 style="color: #003300;">Timeline of Key Crime Events (Jan to Apr 2025)</h2>
+      <iframe src="https://cdn.knightlab.com/libs/storyline/latest/embed/index.html?dataURL=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2Fe%2F2PACX-1vSxnIuz9c9d9RS1_vJTxtCNDDjNANIonFmFbYiQpzk4I-bwWdPbf56FKR1_egxwC1_NrvDLptAXE8AM%2Fpubhtml%3Fgid%3D1328366617%26single%3Dtrue&amp;dataYCol=%23crimes&amp;dataXCol=date&amp;dataDateFormat=%25Y-%25m-%25d&amp;chartDateFormat=%25Y-%25m-%25d&amp;chartYLabel=%23%20of%20Crimes%20Reported&amp;sliderCardTitleCol=title&amp;sliderCardTextCol=text" 
+        style="width:100%;height:650px;" 
+        frameborder="0" 
+        marginwidth="0" 
+        marginheight="0" 
+        vspace="0" 
+        hspace="0">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Text Box Below the Timeline -->
+  <div class="row mt-3">
+    <div class="col">
+      <div class="p-3 border rounded bg-light">
+        <h5>Conclusion or Key Takeaways</h5>
+        <p>You can summarize your analysis or offer a reflection on how the timeline helps tell the broader story of crime in Philadelphia here.</p>
+      </div>
+    </div>
+  </div>
+</div>
