@@ -81,7 +81,7 @@ img {
 }
 
 /* Responsive tweaks */
-@media (max-width: 768px) {
+media (max-width: 768px) {
   img {
     width: 80%;
   }
