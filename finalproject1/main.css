@@ -51,7 +51,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #b2dfdb; /* light desaturated teal for contrast */
+  color:  #00796b; /* light desaturated teal for contrast */
 }
 
 /* Paragraph */
@@ -81,7 +81,7 @@ img {
 }
 
 /* Responsive tweaks */
-media (max-width: 768px) {
+@media (max-width: 768px) {
   img {
     width: 80%;
   }
